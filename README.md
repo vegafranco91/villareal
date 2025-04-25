@@ -1,8 +1,5 @@
 # White and Case Landing Page Clone
 
-![alt text](images/cover.png)
-Author: [Criztiandev](https://github.com/Criztiandev)
-
 ## Description
 
 This project aims to explore the process of cloning a website for educational purposes, emphasizing web development techniques and creating a local development environment. The primary goal is to understand and replicate the structure, design, and functionality of a chosen website while respecting intellectual property rights and legal considerations.
