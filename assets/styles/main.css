@@ -1,0 +1,45 @@
+header *, .navbar *, .navbar-collapse *, #block-mainnavigation {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+header {
+  border-bottom: 1px solid #000000 !important;
+}
+#searchAnchor  {
+  border-bottom: 1px solid #000000 !important;
+  margin-top: -1px;
+}
+
+.navbar-toggle > .icon-bar {
+  background-color: #000 !important;
+}
+
+.navbar-fixed-top:before {
+  background-color: #ffffff !important;  
+}
+
+#home-about-us {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#about-fields > .field--item > .paragraph {
+  color: #000000 !important;
+  border-color: #000000;;
+}
+
+#footer {
+  background-color: #ffffff;
+}
+
+#footer *, 
+#footer-social-links-block-title, 
+.footer-social-links *, 
+.footer-bottom * {
+  color: #000000 !important;
+}
+
+
+.footer .menu.nav li {
+  border-right: 1px solid #000000;
+}
