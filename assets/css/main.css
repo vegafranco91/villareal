@@ -10,6 +10,10 @@ header {
   margin-top: -1px;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #ffffff00 !important;
+}
+
 .navbar-toggle > .icon-bar {
   background-color: #000 !important;
 }
@@ -25,7 +29,7 @@ header {
 
 #about-fields > .field--item > .paragraph {
   color: #000000 !important;
-  border-color: #000000;;
+  border-color: #000000;
 }
 
 #footer {
