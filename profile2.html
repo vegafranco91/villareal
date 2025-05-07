@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Villareal Rodríguez - Abogados</title>
+<meta name="description" content="...">
+
+<meta name="theme-color" content="#070708">
+<meta name="apple-mobile-web-app-status-bar-style" content="#070708">
+<meta name="msapplication-navbutton-color" content="#070708">
+
+<link rel="manifest" href="/manifest.json"><link rel="icon" href="/favicon.png" type="image/png">
+
+<style>
+html {background-color: #070708;}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/full.css" />
+
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg --navbar">
+        <div class="--nav-container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#--presentacion">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#--propiedad-intelectual">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#--miembros">Miembros</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link --nav-enviar-whatsapp">
+                            <span class="--texto">Enviar WhatsApp</span>
+                            <span>
+                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
+                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
+                                    <g id="Capa_1-2" data-name="Capa 1">
+                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <section id="--profile">
+        <div class="container">
+            <div class="row  pt-3">
+                <div class="col-12 col-lg-8 col-xl-6">
+                    <div class="--title-h1">Juan Ernesto Villareal</div>
+
+                    <div class="--pre-datos">
+                        <div class="--div-datos">
+                            <p class="--texto-ubicacion">Counsel, London</p>
+                            
+                            <div class="--datos-contacto">
+                                <a href="tel:+525512345678">+52 55 1234 5678 - WhatsApp</a>
+                                <a href="mailto:juanernesto.villaruel@correo.com">juanernesto.villaruel@correo.com</a>
+                            </div>
+                        
+                            <div class="--contenido">
+                                <h3 class="--subtitle">Biography</h3>
+                                <p class="--texto-p">Joshua is a counsel in our global M&A and Corporate practice based in London, focusing on Private Equity. Prior to joining White & Case, Joshua served as European Legal Counsel at Providence Equity Partners LLC.</p>
+                            </div>
+                            
+                            <div class="--contenido">
+                                <h3 class="--subtitle">Bars and Courts</h3>
+                                <ul>
+                                    <li>England and Wales, Solicitor</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="--contenido">
+                                <h3 class="--subtitle">Education</h3>
+                                <ul>
+                                    <li>Master's Degree, Law and Business, The University of Law</li>
+                                    <li>BA in Law, London School of Economics</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="--contenido">
+                                <h3 class="--subtitle">Languages</h3>
+                                <ul>
+                                    <li>English</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>                      
+                </div>
+                <div class="col-12 col-lg-4 col-xl-6">
+                    <img src="assets/images/58.jpg" alt="" class="--img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        // --- Smooth scrolling -- Va hacia el HASH (ej. .com/pagina#section-1)
+        document.querySelectorAll('.scroll').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.hash);
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

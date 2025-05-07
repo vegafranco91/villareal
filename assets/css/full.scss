@@ -62,9 +62,9 @@ body {
 
 
 
-
-
-
+/* ///////////////////////////////////////////////////////////
+ * Index
+ * ///////////////////////////////////////////////////////////////// */
 section {
     background-color: #070708;
     
@@ -312,11 +312,9 @@ section {
 }
 
 
-
-
-
-
-
+/* ///////////////////////////////////////////////////////////
+ * Media Queries
+ * ///////////////////////////////////////////////////////////////// */
 @media (min-width: 1200px){
 
 }
@@ -334,8 +332,6 @@ section {
 @media (max-width: 575.9px) {
     .--px-xs-0 {padding-left: 0 !important;padding-right: 0 !important;}
 }
-
-
 
 @media (min-width: 0px) and (max-width: 991.9px){
     section {
@@ -412,40 +408,9 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ///////////////////////////////////////////////////////////
+ * Contacto
+ * ///////////////////////////////////////////////////////////////// */
 .--card-contacto {
     height: 100%;
     padding: 24px;
@@ -463,7 +428,6 @@ section {
         color: #727280;
     }
     &.--bg-whatsapp {
-        /*background-image: url(../images/bg-multicolor-2.jpg);*/
         display: block;
         background-blend-mode: overlay, normal, normal;
         background-size: cover;
@@ -487,7 +451,6 @@ section {
         }
     }
 }
-
 .--formulario {
     .--texto-top {
         letter-spacing: -1.55px;line-height: 1.1;font-weight: 600;font-family: 'JetBrains Mono', monospace;font-size: 30px;margin-bottom: 12px;
@@ -544,6 +507,92 @@ section {
             border-radius: 0;
             &:hover {
                 border: 1px solid #393948;background: #272b337d;color: #f7f0e0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////
+ * Profile
+ * ///////////////////////////////////////////////////////////////// */
+#--profile {
+    .--title-h1 {
+        font-weight: 700;line-height: 1.1;font-family: "JetBrains Mono", monospace;letter-spacing: -1.4px;font-size: 36px;
+        margin-bottom: 12px;
+        color: #fff;
+    }
+    .--pre-datos {
+        .--div-datos {
+            .--texto-ubicacion {
+                font-weight: 700;line-height: 1.1;font-family: "JetBrains Mono", monospace;
+                letter-spacing: -1.4px;font-size: 20px;margin-bottom: 28px;
+                color: #9c9fab;
+            }
+            .--datos-contacto {
+                margin-bottom: 36px;
+                a {
+                    font-weight: 400;font-style: normal;line-height: 1.4;font-family: 'JetBrains Mono', monospace;
+                    letter-spacing: -0.6px;font-size: 15px;display: block;
+                    color: #eae4d4;
+                    padding: 2px 0;
+                }
+            }
+            .--contenido {
+                margin-bottom: 36px;
+            }
+            .--subtitle {
+                font-weight: 700;line-height: 1.1;font-family: "JetBrains Mono", monospace;letter-spacing: -1.4px;font-size: 26px;margin-bottom: 12px;
+                color: #ececec;
+            }
+            .--texto-p {
+                font-size: 16px;letter-spacing: -.2px;font-family: 'Inter',sans-serif;font-weight: 400;
+                font-style: normal;line-height: 1.4;margin-bottom: 18px;
+                color: #9ca0a3;
+            }
+            ul {
+                list-style: none;
+                li {
+                    font-size: 16px;letter-spacing: -.2px;font-family: 'Inter',sans-serif;font-weight: 400;
+                    font-style: normal;line-height: 1.4;margin-bottom: 18px;
+                    color: #9ca0a3;
+                    margin-bottom: 8px;
+                    
+                    list-style: disc;
+                    list-style-position: outside;
+                    list-style-position: inside;
+                }
+            }
+        }
+    }
+    img {
+        width: 100%; height: calc(100% - 36px);object-fit: cover;
+    }
+}
+
+
+
+
+@media (max-width: 575.9px) {
+    #--profile {
+        padding-bottom: 0;
+        .--title-h1 {
+            font-size: 32px;
+        }
+        .--pre-datos {
+            .--div-datos {
+                .--subtitle {
+                    font-size: 24px;
+                }
             }
         }
     }
