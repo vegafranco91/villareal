@@ -7,14 +7,14 @@
 <title>Villareal Rodríguez - Abogados</title>
 <meta name="description" content="...">
 
-<meta name="theme-color" content="#070708">
-<meta name="apple-mobile-web-app-status-bar-style" content="#070708">
-<meta name="msapplication-navbutton-color" content="#070708">
+<meta name="theme-color" content="#fff">
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+<meta name="msapplication-navbutton-color" content="#fff">
 
 <link rel="manifest" href="/manifest.json"><link rel="icon" href="/favicon.png" type="image/png">
 
 <style>
-html {background-color: #070708;}
+html {background-color: #070708;background-color: #fff;}
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@ html {background-color: #070708;}
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/full.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/full.css?v-1.0" />
 
 </head>
 <body>
@@ -33,9 +33,6 @@ html {background-color: #070708;}
     <nav class="navbar navbar-expand-lg --navbar">
         <div class="--nav-container">
             <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -55,9 +52,9 @@ html {background-color: #070708;}
                             <span class="--texto">Enviar WhatsApp</span>
                             <span>
                                 <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                    <defs><style>.cls-1 {fill: #0c0d24;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -65,7 +62,52 @@ html {background-color: #070708;}
                     </li>
                 </ul>
             </div>
+
+            <a href="javascript: void(0);" class="--a" menu-target="#menu-mobile-accordion">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="#000000" fill="none">
+                    <path d="M20 12L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                    <path d="M20 5L4 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                    <path d="M20 19L4 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                </svg>
+            </a>
         </div>
+        
+        <div id="menu-mobile-accordion" style="display: none;">
+            <div class="--c1">
+              <ul class="--g1">
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--presentacion">
+                    <div class="--d1">
+                      <div class="---d1">Nosotros</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--propiedad-intelectual">
+                    <div class="--d1">
+                      <div class="---d1">Servicios</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--miembros">
+                    <div class="--d1">
+                      <div class="---d1">Miembros</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <ul class="--g2">
+                <li class="--e1">
+                  <a class="--item-click --btn --btn-dark" href="https://api.whatsapp.com/send?phone=11324567898&text=..." target="_blank">
+                    <div class="--d1">
+                      <div class="---d1">Enviar WhatsApp</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
     </nav>
 
 
@@ -82,9 +124,9 @@ html {background-color: #070708;}
                         <span>Enviar WhatsApp</span>
                         <span>
                             <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                <g id="Capa_1-2" data-name="Capa 1">
-                                <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <defs><style>.cls-1 {fill: #0c0d24;stroke-width: 0px;}</style></defs>
+                                <g>
+                                <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                 </g>
                             </svg>
                         </span>
@@ -174,7 +216,7 @@ html {background-color: #070708;}
 
                     <div class="---left">
                         <div class="mb-3">
-                            En nuestra firma, nos especializamos en <span style='color: #eabc32;font-family: "JetBrains Mono", monospace;letter-spacing: -0.3px;font-size: 15px;'>Propiedad Intelectual</span>, un campo que entendemos profundamente y donde somos expertos. Ayudamos a proteger las creaciones y activos más valiosos de nuestros clientes, desde patentes, marcas, derechos de autor hasta secretos comerciales. Ofrecemos una amplia gama de servicios en esta área, que incluyen:
+                            En nuestra firma, nos especializamos en <span style='color: #eabc32;color: #d3792a;font-family: "JetBrains Mono", monospace;letter-spacing: -0.3px;font-size: 15px;'>Propiedad Intelectual</span>, un campo que entendemos profundamente y donde somos expertos. Ayudamos a proteger las creaciones y activos más valiosos de nuestros clientes, desde patentes, marcas, derechos de autor hasta secretos comerciales. Ofrecemos una amplia gama de servicios en esta área, que incluyen:
                         </div>
                     </div>
                     
@@ -189,10 +231,10 @@ html {background-color: #070708;}
                         <div class="--me-interesa">
                             <span>Enviar WhatsApp</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #d3792a">
+                                    <defs><style>.cls-1 {stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path style="fill: inherit;" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -204,10 +246,10 @@ html {background-color: #070708;}
                         <div class="--me-interesa">
                             <span>Enviar WhatsApp</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #d3792a">
+                                    <defs><style>.cls-1 {stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path style="fill: inherit;" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -219,10 +261,10 @@ html {background-color: #070708;}
                         <div class="--me-interesa">
                             <span>Enviar WhatsApp</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #d3792a">
+                                    <defs><style>.cls-1 {stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path style="fill: inherit;" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -234,10 +276,10 @@ html {background-color: #070708;}
                         <div class="--me-interesa">
                             <span>Enviar WhatsApp</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #d3792a">
+                                    <defs><style>.cls-1 {stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path style="fill: inherit;" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -249,10 +291,10 @@ html {background-color: #070708;}
                         <div class="--me-interesa">
                             <span>Enviar WhatsApp</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #d3792a">
+                                    <defs><style>.cls-1 {stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path style="fill: inherit;" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -307,10 +349,10 @@ html {background-color: #070708;}
                         <div class="--ver-detalles">
                             <span>Ver más detalles</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #986d2a;">
+                                    <defs><style>.cls-1 {fill: inherit;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -330,10 +372,10 @@ html {background-color: #070708;}
                         <div class="--ver-detalles">
                             <span>Ver más detalles</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #986d2a;">
+                                    <defs><style>.cls-1 {fill: inherit;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -353,10 +395,10 @@ html {background-color: #070708;}
                         <div class="--ver-detalles">
                             <span>Ver más detalles</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #986d2a;">
+                                    <defs><style>.cls-1 {fill: inherit;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -376,10 +418,10 @@ html {background-color: #070708;}
                         <div class="--ver-detalles">
                             <span>Ver más detalles</span>
                             <span>
-                                <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;fill: #986d2a;">
+                                    <defs><style>.cls-1 {fill: inherit;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -398,7 +440,7 @@ html {background-color: #070708;}
 
 
 
-    <section id="contact" class="" style="background: #101011;">
+    <section id="contact" class="" style="/*background: #101011;*/">
         <div class="container-fluid --relative --z-10">
             <div class="container --px-xs-0 --px-sm-0 --px-md-0 --px-lg-0">
                 
@@ -407,14 +449,14 @@ html {background-color: #070708;}
                         <a class="--card-contacto --bg-whatsapp text-dark" href="#" target="_blank">
                             <div class="--numero">+52 55 1234 5678</div>
                             <div class="--numero-subtitle">escríbenos</div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="color: #333340;"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="/*color: #333340;*/"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>
                         </a>
                     </div>
                     <div class="col-12 col-md-6 col-lg-3 col-xl-3 mb-4 mb-lg-0  --2do-numero">
                         <a class="--card-contacto --bg-whatsapp text-dark" href="#" target="_blank">
                             <div class="--numero">+52 55 1234 5678</div>
                             <div class="--numero-subtitle">escríbenos</div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="color: #333340;"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="/*color: #333340;*/"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"></path></svg>
                         </a>
                     </div>
     
@@ -452,6 +494,7 @@ html {background-color: #070708;}
 
 
 
+    <script src="scripts/jquery-3.7.1.min.js"></script>
     <script>
         // --- Smooth scrolling -- Va hacia el HASH (ej. .com/pagina#section-1)
         document.querySelectorAll('.scroll').forEach(function(link) {
@@ -465,6 +508,17 @@ html {background-color: #070708;}
                     });
                 }
             });
+        });
+
+        // ------------------------------------------------
+        // Menu Target
+        // ----------------------------------------
+        $('[menu-target').click(function() {
+            $(this).attr('menu-mobile-accordion');
+            $('#menu-mobile-accordion').slideToggle();
+        });
+        $('#menu-mobile-accordion .--item-click').click(function(){
+            $('#menu-mobile-accordion').slideToggle();
         });
     </script>
 

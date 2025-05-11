@@ -7,14 +7,14 @@
 <title>Villareal Rodríguez - Abogados</title>
 <meta name="description" content="...">
 
-<meta name="theme-color" content="#070708">
-<meta name="apple-mobile-web-app-status-bar-style" content="#070708">
-<meta name="msapplication-navbutton-color" content="#070708">
+<meta name="theme-color" content="#fff">
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+<meta name="msapplication-navbutton-color" content="#fff">
 
 <link rel="manifest" href="/manifest.json"><link rel="icon" href="/favicon.png" type="image/png">
 
 <style>
-html {background-color: #070708;}
+html {background-color: #070708;background-color: #fff;}
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@ html {background-color: #070708;}
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/full.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/full.css?v-1.0" />
 
 </head>
 <body>
@@ -32,9 +32,6 @@ html {background-color: #070708;}
     <nav class="navbar navbar-expand-lg --navbar">
         <div class="--nav-container">
             <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -54,9 +51,9 @@ html {background-color: #070708;}
                             <span class="--texto">Enviar WhatsApp</span>
                             <span>
                                 <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.16 15.58" style="height: 13px;rotate: 270deg;">
-                                    <defs><style>.cls-1 {fill: #fff;stroke-width: 0px;}</style></defs>
-                                    <g id="Capa_1-2" data-name="Capa 1">
-                                    <path class="cls-1" d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
+                                    <defs><style>.cls-1 {fill: #0c0d24;stroke-width: 0px;}</style></defs>
+                                    <g>
+                                    <path d="m6.58,12.18V1c0-.28.1-.52.29-.71s.43-.29.71-.29.52.1.71.29c.19.19.29.43.29.71v11.18l4.9-4.9c.2-.2.43-.3.7-.29s.5.11.7.31c.18.2.28.43.29.7s-.09.5-.29.7l-6.6,6.6c-.1.1-.21.17-.33.21s-.24.06-.38.06-.26-.02-.38-.06-.23-.11-.33-.21L.28,8.7c-.18-.18-.28-.41-.28-.69s.09-.51.28-.71c.2-.2.44-.3.71-.3s.51.1.71.3l4.88,4.88Z"></path>
                                     </g>
                                 </svg>
                             </span>
@@ -64,7 +61,52 @@ html {background-color: #070708;}
                     </li>
                 </ul>
             </div>
+
+            <a href="javascript: void(0);" class="--a" menu-target="#menu-mobile-accordion">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="#000000" fill="none">
+                    <path d="M20 12L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                    <path d="M20 5L4 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                    <path d="M20 19L4 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color: #0c0d24;"/>
+                </svg>
+            </a>
         </div>
+        
+        <div id="menu-mobile-accordion" style="display: none;">
+            <div class="--c1">
+              <ul class="--g1">
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--presentacion">
+                    <div class="--d1">
+                      <div class="---d1">Nosotros</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--propiedad-intelectual">
+                    <div class="--d1">
+                      <div class="---d1">Servicios</div>
+                    </div>
+                  </a>
+                </li>
+                <li class="--e1">
+                  <a class="--item-click scroll" href="#--miembros">
+                    <div class="--d1">
+                      <div class="---d1">Miembros</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <ul class="--g2">
+                <li class="--e1">
+                  <a class="--item-click --btn --btn-dark" href="https://api.whatsapp.com/send?phone=11324567898&text=..." target="_blank">
+                    <div class="--d1">
+                      <div class="---d1">Enviar WhatsApp</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
     </nav>
 
 
@@ -127,6 +169,7 @@ html {background-color: #070708;}
 
 
 
+    <script src="scripts/jquery-3.7.1.min.js"></script>
     <script>
         // --- Smooth scrolling -- Va hacia el HASH (ej. .com/pagina#section-1)
         document.querySelectorAll('.scroll').forEach(function(link) {
@@ -140,6 +183,17 @@ html {background-color: #070708;}
                     });
                 }
             });
+        });
+
+        // ------------------------------------------------
+        // Menu Target
+        // ----------------------------------------
+        $('[menu-target').click(function() {
+            $(this).attr('menu-mobile-accordion');
+            $('#menu-mobile-accordion').slideToggle();
+        });
+        $('#menu-mobile-accordion .--item-click').click(function(){
+            $('#menu-mobile-accordion').slideToggle();
         });
     </script>
 
